@@ -2,7 +2,8 @@
     "extends": "../tsconfig.json",
     "compilerOptions": {
         "composite": true,
-        "outDir": ".",
+        "outDir": "..",
+        "rootDir": "..",
         "experimentalDecorators": true
     },
     "include": ["../test/*.ts"],

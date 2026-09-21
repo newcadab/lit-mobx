@@ -3,7 +3,9 @@
     "compilerOptions": {
         "declaration": false,
         "declarationMap": false,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "rootDir": "..",
+        "outDir": ".."
     },
     "include": ["./*.ts"]
 }
