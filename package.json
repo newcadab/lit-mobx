@@ -25,6 +25,7 @@
 	"scripts": {
 		"build": "tsc --build tsconfig.json && tsc --build demo/tsconfig.json",
 		"build:watch": "tsc --build tsconfig.json -w & tsc --build demo/tsconfig.json -w",
+		"prepare": "npm run build",
 		"version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md",
 		"lint": "eslint -f pretty 'src/**/*.ts'",
 		"prepublishOnly": "npm run build",
